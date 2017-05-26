@@ -1,0 +1,123 @@
+.ztt-yellow-button {
+    margin: 5px;
+    background-color: #ffc401;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+#ztt-base-pic {
+    width: auto;
+    height: 187px;
+    margin-right: 5px;
+}
+
+#ztt-progress-pic {
+    width: auto;
+    height: 187px;
+}
+
+#ztt-progress-pic img {
+    cursor: pointer;    
+}
+
+#ztt-base-pic img {
+    cursor: pointer;
+}
+
+.ztt-gallery {
+    padding: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.ztt-show-image {
+    position: relative;
+    float:left;
+    margin:5px;
+}
+.ztt-show-image:hover img{
+    opacity:0.85;
+    cursor: pointer;
+}
+.ztt-show-image:hover input {
+    display: block;
+}
+.ztt-show-image input {
+    position:absolute;
+    display:none;
+}
+.ztt-show-image input.ztt-update-base {
+    top:35%;
+    left:55%;
+    width: 35%;
+    height: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    background: #200533;
+    color: #fff;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.ztt-show-image input.ztt-update-base:hover {
+    background: #299303;
+}
+
+.ztt-show-image input.ztt-update-progress {
+    top:35%;
+    left:15%;
+    width: 35%;
+    height: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    background: #200533;
+    color: #fff;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.ztt-show-image input.ztt-update-progress:hover {
+    background: #299303;
+}
+
+.ztt-show-image input.ztt-delete {
+    top:75%;
+    left:40%;
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    background: #200533;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ztt-show-image input.ztt-delete:hover {
+    background: #299303;
+}
+
+
+.ztt-delete-image {
+    margin: 0px -4px;
+    background-color: #ffc401;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.ztt-change-date {
+    margin: 5px;
+}
+
+.ztt-date-form {
+    margin: 5px;
+    float: left;
+    display: inline;
+}
+
